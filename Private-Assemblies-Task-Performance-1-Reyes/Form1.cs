@@ -22,22 +22,24 @@ namespace Private_Assemblies_Task_Performance_1_Reyes
             // Calling the methods from the BasicComputation class in the CalculatorPrivateAssembly
             float num1 = float.Parse(tbNum1.Text);
             float num2 = float.Parse(tbNum2.Text);
+            float total = 0;
 
-            //Addition
-            float additionResult = CalculatorPrivateAssembly.BasicComputation.Add(num1, num2);
-            lblTotal.Text = additionResult.ToString();
-
-            //Subtraction
-            float subtractionResult = CalculatorPrivateAssembly.BasicComputation.Subtract(num1, num2);
-            lblTotal.Text = subtractionResult.ToString();
-
-            //Multiplication
-            float multiplicationResult = CalculatorPrivateAssembly.BasicComputation.Multiply(num1, num2);
-            lblTotal.Text = multiplicationResult.ToString();
-
-            //Division
-            float divisionResult = CalculatorPrivateAssembly.BasicComputation.Divide(num1, num2);
-            lblTotal.Text = divisionResult.ToString();
+            switch(cbOperations.SelectedItem.ToString())
+            {
+                case "+":
+                    total = CalculatorPrivateAssembly.BasicComputation.Add(num1, num2);
+                    break;
+                case "-":
+                    total = CalculatorPrivateAssembly.BasicComputation.Subtract(num1, num2);
+                    break;
+                case "*":
+                    total = CalculatorPrivateAssembly.BasicComputation.Multiply(num1, num2);
+                    break;
+                case "/":
+                    total = CalculatorPrivateAssembly.BasicComputation.Divide(num1, num2);
+                    break;
+                
+            }
         }
     }
 }
