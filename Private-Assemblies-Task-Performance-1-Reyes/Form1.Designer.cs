@@ -103,6 +103,7 @@
             this.btnCompute.TabIndex = 5;
             this.btnCompute.Text = "Compute";
             this.btnCompute.UseVisualStyleBackColor = false;
+            this.btnCompute.Click += new System.EventHandler(this.btnCompute_Click);
             // 
             // frmBasicCalculator
             // 
