@@ -16,7 +16,7 @@ namespace Private_Assemblies_Task_Performance_1_Reyes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmBasicCalculator());
         }
     }
 }

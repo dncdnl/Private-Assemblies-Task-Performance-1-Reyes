@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Private_Assemblies_Task_Performance_1_Reyes
 {
-    public partial class Form1 : Form
+    public partial class frmBasicCalculator : Form
     {
-        public Form1()
+        public frmBasicCalculator()
         {
             InitializeComponent();
         }
