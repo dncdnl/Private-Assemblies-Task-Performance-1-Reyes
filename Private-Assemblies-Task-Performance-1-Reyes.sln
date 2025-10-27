@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Private-Assemblies-Task-Performance-1-Reyes", "Private-Assemblies-Task-Performance-1-Reyes\Private-Assemblies-Task-Performance-1-Reyes.csproj", "{F3FED8E9-B1C0-45C2-96A6-AAB5DAFDEFF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorPrivateAssembly", "CalculatorPrivateAssembly\CalculatorPrivateAssembly.csproj", "{DB408FB2-6291-45BD-B9E7-688178B7E5DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F3FED8E9-B1C0-45C2-96A6-AAB5DAFDEFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FED8E9-B1C0-45C2-96A6-AAB5DAFDEFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3FED8E9-B1C0-45C2-96A6-AAB5DAFDEFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB408FB2-6291-45BD-B9E7-688178B7E5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB408FB2-6291-45BD-B9E7-688178B7E5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB408FB2-6291-45BD-B9E7-688178B7E5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB408FB2-6291-45BD-B9E7-688178B7E5DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
